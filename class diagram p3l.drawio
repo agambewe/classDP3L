@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-26T02:01:57.869Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="6c7earyWw3RAA68wnbSn" version="12.7.6" type="github">
+<mxfile host="www.draw.io" modified="2020-02-26T02:03:26.653Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="i68QLw6zi_CnX9z3qmAS" version="12.7.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1283" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1577" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -129,7 +129,7 @@
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Goq9sD9bcq7JDyeDi0AE-13" value="- id_transaksi_layanan : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="Goq9sD9bcq7JDyeDi0AE-12" vertex="1">
+        <mxCell id="Goq9sD9bcq7JDyeDi0AE-13" value="- id : int (Unique) " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="Goq9sD9bcq7JDyeDi0AE-12" vertex="1">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Goq9sD9bcq7JDyeDi0AE-14" value="- total_harga : Double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="Goq9sD9bcq7JDyeDi0AE-12" vertex="1">
@@ -155,7 +155,7 @@
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Goq9sD9bcq7JDyeDi0AE-23" value="- id_transaksi_produk : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="Goq9sD9bcq7JDyeDi0AE-22" vertex="1">
+        <mxCell id="Goq9sD9bcq7JDyeDi0AE-23" value="- id : int (Unique) " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="Goq9sD9bcq7JDyeDi0AE-22" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Goq9sD9bcq7JDyeDi0AE-24" value="- jumlah : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="Goq9sD9bcq7JDyeDi0AE-22" vertex="1">
@@ -175,7 +175,7 @@
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Goq9sD9bcq7JDyeDi0AE-33" value="- id_order_restock : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="Goq9sD9bcq7JDyeDi0AE-32" vertex="1">
+        <mxCell id="Goq9sD9bcq7JDyeDi0AE-33" value="- id : int (Unique) " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="Goq9sD9bcq7JDyeDi0AE-32" vertex="1">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Goq9sD9bcq7JDyeDi0AE-34" value="- tgl_restock : Date" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="Goq9sD9bcq7JDyeDi0AE-32" vertex="1">
@@ -195,7 +195,7 @@
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Goq9sD9bcq7JDyeDi0AE-39" value="- id_order_restock : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="Goq9sD9bcq7JDyeDi0AE-38" vertex="1">
+        <mxCell id="Goq9sD9bcq7JDyeDi0AE-39" value="- id : int (Unique) " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="Goq9sD9bcq7JDyeDi0AE-38" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Goq9sD9bcq7JDyeDi0AE-40" value="- jumlah : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="Goq9sD9bcq7JDyeDi0AE-38" vertex="1">
@@ -366,7 +366,7 @@
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Goq9sD9bcq7JDyeDi0AE-98" value="- id_harga_layanan : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="Goq9sD9bcq7JDyeDi0AE-97" vertex="1">
+        <mxCell id="Goq9sD9bcq7JDyeDi0AE-98" value="- id : int (Unique) " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="Goq9sD9bcq7JDyeDi0AE-97" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Goq9sD9bcq7JDyeDi0AE-99" value="- harga : Double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="Goq9sD9bcq7JDyeDi0AE-97" vertex="1">
@@ -380,7 +380,7 @@
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Goq9sD9bcq7JDyeDi0AE-104" value=" - id_transaksi_layanan : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="Goq9sD9bcq7JDyeDi0AE-103" vertex="1">
+        <mxCell id="Goq9sD9bcq7JDyeDi0AE-104" value="- id : int (Unique) " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="Goq9sD9bcq7JDyeDi0AE-103" vertex="1">
           <mxGeometry y="26" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Goq9sD9bcq7JDyeDi0AE-105" value="- jumlah : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="Goq9sD9bcq7JDyeDi0AE-103" vertex="1">
@@ -397,7 +397,7 @@
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Goq9sD9bcq7JDyeDi0AE-109" value="- id_transaksi_produk : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="Goq9sD9bcq7JDyeDi0AE-108" vertex="1">
+        <mxCell id="Goq9sD9bcq7JDyeDi0AE-109" value="- id : int (Unique) " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="Goq9sD9bcq7JDyeDi0AE-108" vertex="1">
           <mxGeometry y="26" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Goq9sD9bcq7JDyeDi0AE-110" value="- total_harga : Double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="Goq9sD9bcq7JDyeDi0AE-108" vertex="1">
